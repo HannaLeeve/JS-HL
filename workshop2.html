@@ -11,12 +11,34 @@
 		</style>
 		<script>
 			<!-- JavaScript goes here -->
+			/*
 			document.write('<p><em><strong>\"If I had nine hours to chop down a tree, I\'d spend the first six sharpening my ax.\"</strong><br /> -- Abraham Lincoln</em></p>')
+			
 			function repeatingText(){
 			document.write("Toistetaan samaa tekstiä 50 kertaa<br />")
 			}
 			for (var i=0; i < 50; i++) {
 			repeatingText();
+			}
+			
+			
+			if(navigator.appVersion.indexOf("Firefox")){
+			console.log("Selain on Firefox");
+			location.href = "http://www.firefox.com";
+			}
+			else{
+			console.log("Selain on jokin muu kuin Firefox");
+			location.href = "http://www.microsoft.com";
+			}*/
+
+			
+			var txt;
+			var r = confirm("Are you a student?");
+			if (r == true) {
+  			document.write("Welcome Student");
+			} 
+			else {
+  			document.write("Sorry, this page is for students only");
 			}
 		</script>
 </head>
